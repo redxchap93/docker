@@ -24,7 +24,7 @@ def create_user():
         return jsonify({"message": str(e)}), 400
 
 def main():
-    app.run(debug=True, port=5001)
+    app.run(debug=True)
 
 if __name__ == "__main__":
     main()
